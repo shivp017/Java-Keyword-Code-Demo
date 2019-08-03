@@ -7,6 +7,8 @@ public class Encapsulation {
     private String name,email;
     private float amount;
 
+    //getter and setter methods
+
     public long getAcc_no() {
         return acc_no;
     }
@@ -43,10 +45,12 @@ public class Encapsulation {
 class Test{
     public static void main(String[] args) {
         Encapsulation acc=new Encapsulation();
+        //setting the values of variable using setter methods
         acc.setAcc_no(1234567899);
         acc.setName("Shiv Singh");
         acc.setEmail("shivp017@yahoo.com");
         acc.setAmount(20000);
+        //getting all values using getter methods
         System.out.println("**********Bank Details***********");
         System.out.println("Acccount no:    "+ acc.getAcc_no() );
         System.out.println("Name :    "+ acc.getName());
