@@ -1,4 +1,4 @@
-package com.stackroute;
+package com.stackroute.Loops;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class SwitchCaseDemo  {
         System.out.println("enter character to check vowel or consonant");
         Scanner scanner=new Scanner(System.in);
        char ch= scanner.next().charAt(0);
-    
+
         switch(ch)
         {
             case 'a':
